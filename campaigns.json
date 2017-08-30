@@ -1,0 +1,23 @@
+{
+	"59718f27eb83efac8a35396d": {
+		"name": "Diploma in Mobile App Development",
+		"slug": "mobile-app",
+		"lesson": {
+			"name": "Why make Mobile Apps?",
+			"start_time": "2017-08-30T17:25:00Z",
+			"stream_channel": "mobile-app",
+			"video_file": "https://gcs-vimeo.akamaized.net/exp=1504125814~acl=%2A%2F816117731.mp4%2A~hmac=7764e34e4ac0aad499544ffd905805fbfb4de4231862670d9a50cebdad8a4235/vimeo-prod-skyfire-std-us/01/1079/9/230397808/816117731.mp4"
+		}		
+	},
+	"59718f27eb83efac8a353960": {
+		"name": "Diploma in Adobe Lightroom",
+		"slug": "lightroom",
+		"lesson": {
+			"name": "Powerful Lens Correction",
+			"start_time": "2017-09-11T18:00:00Z",
+			"stream_channel": "lightroom",
+			"video_file": ""
+		}		
+	}
+}
+	

@@ -1,0 +1,374 @@
+body {
+  font-size: 16px;
+  margin: 0px; 
+  height: 100%;
+}
+	/* line 4, ../sass/sites/shaw_academy/_landing_page.scss */
+	body a {
+	text-decoration: none; }
+	@media screen and (max-width: 600px) {
+	/* line 1, ../sass/sites/shaw_academy/_landing_page.scss */
+	body {
+  		padding-top: 0px; } }
+
+#main-navbar {
+  background-color: #4fa4ce;
+  width: 100%;
+  height: 65px;
+  position: relative;
+  z-index: 1000000;
+  -moz-box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2); }
+  /* line 32, ../sass/sites/shaw_academy/_header.scss */
+  #main-navbar .logo {
+    padding: 10px;
+    height: 100%;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 38, ../sass/sites/shaw_academy/_header.scss */
+    #main-navbar .logo img {
+      height: 100%;
+      width: 100%; }
+
+@media (max-width: 1024px) {
+  /* line 121, ../sass/sites/shaw_academy/_header.scss */
+  #main-navbar .logo {
+    width: 180px; } }
+
+
+ #webinar-page .zoom-video {
+    position: absolute;
+    /* top: 50%; */
+    height: 100%;
+    width: 8px;
+    color: red;
+    right: 1px;
+    background: #e9e9e9;
+    border-right: 1px solid rgba(233, 233, 233, 0.33);
+    z-index: 11111111;
+    padding-top: 18%; }
+  /* line 329, ../sass/pages/webinar/_webinar.scss */
+  #webinar-page .jwplayer-error {
+    position: absolute;
+    background: black;
+    padding: 35px; }
+    /* line 332, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page .jwplayer-error * {
+      color: white; }
+    /* line 335, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page .jwplayer-error a {
+      color: #3DA3D0; }
+      /* line 337, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page .jwplayer-error a:hover {
+        color: #6CCBF5; }
+    /* line 341, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page .jwplayer-error p {
+      margin-top: 0; }
+  /* line 346, ../sass/pages/webinar/_webinar.scss */
+  #webinar-page .showchat {
+    cursor: pointer;
+    font-size: 0.5em; }
+  /* line 351, ../sass/pages/webinar/_webinar.scss */
+  #webinar-page #player-pane {
+    background: black;
+    z-index: 2;
+    -moz-box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0; }
+    /* line 359, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page #player-pane .jwplayer {
+      position: absolute !important; }
+    @media (max-width: 543px) {
+      /* line 351, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane {
+        height: 15.2em;
+        width: 100%;
+        position: relative; } }
+    @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+      /* line 351, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane {
+        height: 20em;
+        width: 100%;
+        position: relative; } }
+    @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+      /* line 351, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane {
+        height: 100%;
+        width: 100%;
+        position: absolute; } }
+    /* line 382, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page #player-pane .jwplayer-state-actions {
+      width: 100%;
+      position: absolute;
+      z-index: 5;
+      text-align: center;
+      top: calc(50% - 2em); }
+      /* line 389, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .jwplayer-state-actions img {
+        cursor: pointer;
+        width: 4em; }
+    /* line 396, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page #player-pane .player-overlay-banner {
+      position: absolute;
+      top: 0;
+      display: -webkit-flex;
+      -webkit-flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: #4fa4ce;
+      z-index: 999999; }
+      /* line 407, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .player-overlay-banner .player-overlay-content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        /* line 413, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .player-overlay-content h1, #webinar-page #player-pane .player-overlay-banner .player-overlay-content p {
+          color: white;
+          text-align: center; }
+      /* line 420, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .player-overlay-banner .lesson-wrapper {
+        background-color: #f2f1f1;
+        text-align: center;
+        font-family: "Montserrat2", sans-serif;
+        color: #58595b; }
+        @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+          /* line 420, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-wrapper {
+            font-size: 22px;
+            padding: 4em 0em; } }
+        @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+          /* line 420, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-wrapper {
+            font-size: 13px;
+            padding: 2em 0em; } }
+        @media (max-width: 543px) {
+          /* line 420, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-wrapper {
+            font-size: 10px;
+            padding: 2em 0em; } }
+        /* line 442, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-wrapper .lesson-title {
+          letter-spacing: 1.4px;
+          text-transform: uppercase; }
+          @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+            /* line 442, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-wrapper .lesson-title {
+              font-weight: 500; } }
+          @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+            /* line 442, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-wrapper .lesson-title {
+              font-weight: 600; } }
+          @media (max-width: 543px) {
+            /* line 442, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-wrapper .lesson-title {
+              font-weight: 700; } }
+        /* line 460, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-wrapper .lesson-name {
+          font-size: 0.9em;
+          font-weight: 300;
+          padding-top: 1em;
+          opacity: 0.8; }
+          @media (max-width: 543px) {
+            /* line 460, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-wrapper .lesson-name {
+              font-weight: 400;
+              opacity: 0.7;
+              letter-spacing: 0.1px;
+              padding-top: 0; } }
+      /* line 474, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .player-overlay-banner .lesson-message-section {
+        width: 100%;
+        background-color: #fff; }
+        @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+          /* line 474, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section {
+            font-size: 16px; } }
+        @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+          /* line 474, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section {
+            font-size: 10px; } }
+        @media (max-width: 543px) {
+          /* line 474, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section {
+            font-size: 7px; } }
+        /* line 490, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-message-section .lesson-message {
+          font-family: "Montserrat2", sans-serif;
+          font-weight: 200;
+          letter-spacing: 1.8px;
+          text-align: center;
+          color: #fff;
+          width: 100%;
+          display: block;
+          background-color: rgba(79, 164, 206, 0.8); }
+          @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+            /* line 490, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-message-section .lesson-message {
+              padding: 1em 0; } }
+          @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+            /* line 490, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-message-section .lesson-message {
+              padding: 0.5em 0; } }
+          @media (max-width: 543px) {
+            /* line 490, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-message-section .lesson-message {
+              padding: 0.3em 0; } }
+          /* line 512, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section .lesson-message .timer-block {
+            font-size: 1.2em;
+            font-weight: 300; }
+        /* line 519, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-message-section .timer-value-wrapper {
+          font-size: 1em;
+          text-align: center; }
+          /* line 524, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section .timer-value-wrapper.holding-url-missing {
+            font-size: 1em; }
+          /* line 528, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section .timer-value-wrapper .timer-block {
+            display: inline-block; }
+            /* line 531, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-message-section .timer-value-wrapper .timer-block .timer-value {
+              font-size: 1.3em;
+              height: 1em; }
+            /* line 536, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-message-section .timer-value-wrapper .timer-block .timer-text {
+              font-size: 0.6em; }
+          /* line 542, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-message-section .timer-value-wrapper .timer-colon {
+            width: 2em; }
+      /* line 548, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .player-overlay-banner .lesson-timing-section {
+        font-family: "Montserrat2", sans-serif;
+        font-weight: 300;
+        line-height: 2.5;
+        letter-spacing: 1.2px;
+        color: #fff;
+        -webkit-flex: auto;
+        flex: auto; }
+        @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+          /* line 548, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section {
+            font-size: 24px; } }
+        @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+          /* line 548, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section {
+            font-size: 14px; } }
+        @media (max-width: 543px) {
+          /* line 548, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section {
+            font-size: 8px; } }
+        /* line 575, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .welcome-text {
+          font-size: 1.3em; }
+        /* line 579, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .timer-icon-block {
+          text-align: center; }
+          /* line 582, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .timer-icon-block .timer-icon {
+            width: 2em; }
+            @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+              /* line 582, ../sass/pages/webinar/_webinar.scss */
+              #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .timer-icon-block .timer-icon {
+                margin-top: 2.5em; } }
+            @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+              /* line 582, ../sass/pages/webinar/_webinar.scss */
+              #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .timer-icon-block .timer-icon {
+                margin-top: 1.5em; } }
+            @media (max-width: 543px) {
+              /* line 582, ../sass/pages/webinar/_webinar.scss */
+              #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .timer-icon-block .timer-icon {
+                margin-top: 2.5em; } }
+        /* line 601, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper {
+          font-size: 0.6em;
+          text-align: center;
+          margin-top: 1em; }
+          @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+            /* line 601, ../sass/pages/webinar/_webinar.scss */
+            #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper {
+              font-size: 0.7em; } }
+          /* line 610, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper .timer-block {
+            font-size: 1.7em; }
+          /* line 614, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper.lesson-ended {
+            margin-top: 3em; }
+          /* line 618, ../sass/pages/webinar/_webinar.scss */
+          #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper .btn-margin-top-bottom {
+            margin-top: 1em;
+            margin-bottom: 1em; }
+            @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+              /* line 621, ../sass/pages/webinar/_webinar.scss */
+              #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper .btn-margin-top-bottom .btn-lip-xl {
+                font-size: 1.5em; } }
+            @media (max-width: 543px) {
+              /* line 621, ../sass/pages/webinar/_webinar.scss */
+              #webinar-page #player-pane .player-overlay-banner .lesson-timing-section .text-value-wrapper .btn-margin-top-bottom .btn-lip-xl {
+                font-size: 1.5em; } }
+    /* line 638, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page #player-pane .player-overlay-banner-feedback-wrapper {
+      width: 100%;
+      text-align: center;
+      position: absolute; }
+      @media (min-width: 992px) and (max-width: 1199px), (min-width: 1200px) {
+        /* line 638, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner-feedback-wrapper {
+          top: 25%; } }
+      @media (min-width: 544px) and (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+        /* line 638, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner-feedback-wrapper {
+          top: 10%; } }
+      @media (max-width: 543px) {
+        /* line 638, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .player-overlay-banner-feedback-wrapper {
+          top: 10%; } }
+    /* line 659, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page #player-pane .jwplayer-wrapper {
+      height: 100%;
+      width: 100%;
+      position: relative; }
+    /* line 665, ../sass/pages/webinar/_webinar.scss */
+    #webinar-page #player-pane .jwplayer-error {
+      position: absolute;
+      background: black;
+      width: auto;
+      padding: 35px; }
+      /* line 669, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .jwplayer-error * {
+        color: white; }
+      /* line 672, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .jwplayer-error a {
+        color: #3DA3D0; }
+        /* line 674, ../sass/pages/webinar/_webinar.scss */
+        #webinar-page #player-pane .jwplayer-error a:hover {
+          color: #6CCBF5; }
+      /* line 678, ../sass/pages/webinar/_webinar.scss */
+      #webinar-page #player-pane .jwplayer-error p {
+        margin-top: 0; }
+
+#loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#loading img {
+    width: 100%;
+    height: 100%;
+}
